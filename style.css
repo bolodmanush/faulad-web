@@ -1,0 +1,149 @@
+ul {
+  margin: 0;
+  padding: 0;
+  background: rgba(173, 216, 230,1.0); 
+  overflow: hidden;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.3);
+}
+ul li {
+  float: left;
+  list-style-type: none;
+}
+ul li:hover{
+  background: #90ee90;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+ul li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #000;
+  display: inline-block;
+  font-weight: 700;
+}
+.menubt a {
+  display: block;
+}
+.menubt a:hover {
+  background: #f1f1f1;
+}
+.menubt {
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  display: none;
+  position: absolute;
+}
+.menu-btn:hover .menubt{
+  display: block;
+}
+.blogbt a {
+  display: block;
+}
+.blogbt a:hover {
+  background: #f1f1f1;
+}
+.blogbt {
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  display: none;
+  position: absolute;
+}
+.blog-btn:hover .blogbt {
+  display: block;
+}
+.purpel-color{
+  color: red;
+}
+body{
+  font-family: Sans-Serif;
+  color: #000;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.half-width{
+  width: 50%;
+  float: left;
+}
+.side-img{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 40px;
+}
+.btn{
+  color: #ffffff;
+  background-color: rgb(221,110,15);
+  padding: 13px 20px 12px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.btn1{
+  color: #ffffff;
+  background-color: rgb(221,110,15);
+  padding: 8px 15px 7px 13px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 0;
+  float: left;
+}
+h1{
+  font-size: 2.5em;
+}
+.w{
+  color: green;
+}
+.container{
+  padding-left: 5px;
+  display: inline-block;
+}
+.experience{
+  padding: 30px;
+    margin: 30px;
+      background-color: rgb(238,251,255);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  
+}
+.experience-item{
+  padding: 20px;
+  border-left: 2px solid rgba(137,130,247,.2);
+}
+.ep{
+  color: #00ff00;
+}
+.footer{
+  color: #808080;
+}
+.p{
+  position: relative;
+  left: 50%;
+}
+.btt {
+  margin: 0;
+  padding: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  background: rgba(0,0,255,0.3);
+  color: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.btt-btn {
+  list-style-type: none;
+}
+.position{
+  position: sticky;
+  top: 0;
+}
